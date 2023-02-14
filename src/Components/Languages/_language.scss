@@ -1,0 +1,92 @@
+.languageToggle {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+  background-color: #adb5bd;
+  border-radius: 5px;
+}
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.instruction {
+  font-size: x-large;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+}
+
+.columns::-webkit-scrollbar {
+  display: none;
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  width: 18%;
+  border: 1px solid black;
+  margin: 1.5%;
+  padding: .5%;
+}
+
+.nameCount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters {
+  padding: 2.5%;
+}
+
+.btoggle {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+}
+
+.toggletitle {
+  width: 50%;
+}
+
+.searchButton {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.search {
+  height: 100%;
+  width: 100%;
+  color: #adb5bd;
+  font-size: xx-large;
+  background-color: #0c8599;
+  border: none;
+  border-radius: 5px;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.search:hover {
+  background-color: #0b7285;
+  transition: 500ms;
+}
+
+.search:disabled {
+  opacity: 50%;
+}
